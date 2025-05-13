@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(8KhZd3VQBtXTAznvKjw-kxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), url(IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+}
+
+body {
+    padding-top:0px;
+    padding-bottom: 0px;
+    font-family:'Raleway';
+    color:#737373;
+    background-color: #fff;
+    line-height:25px;
+    font-weight:500;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+    color: #000;
+    font-family: "Raleway", Arial, sans-serif ;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+a,a:hover {
+    -webkit-transition:color .25s linear,background-color .15s linear .1s;
+    transition:color .25s linear,background-color .15s linear .1s;
+    text-decoration: none;
+}
+
+label {
+    color: #ff3333;
+    font-family: "Raleway", Arial, sans-serif ;
+    font-weight: 600;
+}
+
+.w3-btn:hover {
+    -webkit-transition:color .25s linear,background-color .15s linear .1s !important;
+    transition:color .25s linear,background-color .15s linear .1s !important;
+}
+
+.category-circles{
+
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: left;
+}
+
+.w3-button:hover{
+    background-color: #b3b3b3;
+}
+
+.cate {
+    border: 1px solid #e6e6e6;
+    padding: .3em;
+    border-radius: 5em;
+}
+
+.cate:hover {
+    background-color: #f2f3f4;
+    text-decoration: none;
+    color: #ff3333;
+}
+
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.article-container, .job-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 15px; 
+}
+
+.wrap {
+    width: 600px;
+    padding: .5em;
+    margin-bottom: 40px;
+}
+
+.edit-article select {
+    padding: .5em;
+    border-radius: 5px;
+    color:#222 !important;
+    font-weight: 600;
+    border: 1px solid #4CAF50;
+
+}
+
+.edit-article select option {
+    background-color:#fff;
+    color: #222;
+}
+
+.heading-input {
+    border: 1px solid #4CAF50;
+    width: 100%;
+    border-radius: 5px;
+    padding: .5em;
+    font-weight: 600px;
+
+}
+
+.heading-input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #4CAF50;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #dcefdc;
+}
+
+.edit-article textarea {
+    border: 1px solid #4CAF50;
+    width: 100%;
+    padding: .5em;
+    border-radius: 5px;
+    resize: none;
+    height: 100px;
+}
+
+.edit-article textarea:focus {
+    border-color: #4CAF50;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #dcefdc;
+}
+
+.edit-article .btn {
+    background-color: #222;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    padding: .5em;
+    width: 100px;
+    color: #fff;
+    font-weight: 550;
+}
+
+.edit-article .btn:hover {
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.add-article select {
+    padding: .5em;
+    border-radius: 5px;
+    color:#222 !important;
+    font-weight: 600;
+    border: 1px solid #4CAF50;
+}
+
+.add-article select:focus {
+    border-color: #4CAF50;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #dcefdc;
+}
+
+.add-article select option {
+    background-color:#fff;
+    color: #222;
+    border: 1px solid #4CAF50 !important;
+}
+
+.add-article textarea {
+    border: 1px solid #4CAF50;
+    width: 100%;
+    padding: .5em;
+    border-radius: 5px;
+    resize: none;
+    height: 200px;
+}
+
+.add-article textarea:focus {
+    border-color: #4CAF50;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #dcefdc;
+}
+
+.add-article .btn {
+    background-color: #222;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    padding: .5em;
+    width: 100px;
+    color: #fff;
+    font-family:"Raleway", sans-serif;
+}
+
+.add-article .btn:hover {
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.jobs-section .job-headings h1 {
+    line-height: 5px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif, cursive;
+    color: #222;
+}
+
+.jobs-section .job-headings p {
+    font-size: 150%;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif, cursive;
+    color: #b3b3b3;
+}
+
+.form_body label{
+    color: #b3b3b3;
+}
+
+.login-inputs{
+    height: 35px;
+    padding: .5em;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    color: #222;
+    background-color: #d9d9d9;
+}
+
+.login-inputs:focus {
+    outline: none;
+    border: 3px solid #4CAF50;
+    background-color: #fff;
+    color: #222;
+    border-radius: 5px;
+}
+
+.login-btn{
+    background-color: #222;
+    color: #fff;
+    width: 100px;
+    border-radius: 0 !important;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    color: #ff3333;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+@media screen and (max-height: 1200px) {
+    .form_body{
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding:0% 3% 3% 3%;
+        box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+        background-color: #fff;
+    }  
+}
+
+@media screen and (min-height: 768px) {
+    .form_body{
+        margin-top: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0% 3% 3% 3%;
+        box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+        background-color: #fff;
+    }  
+}
+
+
+.form_login{
+    padding: 5px;
+} 
+
