@@ -206,7 +206,11 @@ session_start();
 			<div class="specs">
 				<span class="spec">INSTALLATION </span>
 			</div>
-			<br><span class="txt">With lots of experience in Industrial Carpentry, 5 years of Carpentry Journey Work, Education in design project management and Education of Carpentry in general, we stand to specialize in kitchen renovations through installation of build-in cupboards, laminated wooden floor, door installation, tilling and build-in wardrop installation. LEARN MORE ABOUT US </span>
+			<br><span class="txt">With lots of experience in Industrial Carpentry,
+				5 years of Carpentry Journey Work, Education in design project management 
+				and Education of Carpentry in general, we stand to specialize in kitchen renovations
+				through installation of build-in cupboards, laminated wooden floor, door installation, 
+				tilling and build-in wardrop installation. LEARN MORE ABOUT US </span>
 		</div>
 	</div>
  	
