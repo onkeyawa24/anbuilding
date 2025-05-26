@@ -183,7 +183,7 @@ session_start();
 			<img src="img/background_img/art1.png" class="animate1">
 		</div>
 		<div class="main_content">
-				<p class="txt1">Welcome to our website</p>
+				<p class="txt1">Welcome to AN Building website</p>
 				<p class="txt2">BUILDING WITH PRIDE</p>
 				<p class="txt3">We pride ourselves with service and skills.</p>	
 		</div class="main_content">	
