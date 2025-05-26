@@ -168,7 +168,7 @@ session_start();
 						<a href="html/portfolio.php"><span class="myNavHead">Portfolio</span></a>
 						<a href="html/shop.php"><span class="myNavHead">Shop</span></a>
 						<a href="html/services.php"><span class="myNavHead">Services</span></a>
-						<a href="html/contact.php"><span class="myNavHead">Contact</span></a>
+						<a href="html/contact.php"><span class="myNavHead">Contacts</span></a>
 						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 						    <i class="fa fa-bars"></i>
 						</a>
